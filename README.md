@@ -16,7 +16,9 @@
 
 ## Demo 💻
 
-Check out a demo video of the website in action below: **ready soon**
+Check out a demo video of the website in action below:
+
+https://github.com/user-attachments/assets/d6024de0-8cdd-4246-a8de-be443e52427c
 
 ## Running Locally 🚀
 
