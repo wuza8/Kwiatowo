@@ -54,8 +54,6 @@ npm run dev
 
 Your app should now be running at `http://localhost:8000`.
 
----
-
 ## Todo 📝
 
 * ✏️ Edit entry functionality
