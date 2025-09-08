@@ -1,0 +1,59 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@theme {
+  --color-lighttext: #333;
+
+  --color-hightext: #b76e79;
+
+  --color-primary: #ddd7e0;
+  --color-primary-hover: #d7cdde;
+
+  --color-secondary: #f6f1f8;
+
+  --color-third: #5c2f58;
+}
+
+input,select,button,textarea{
+    background-color: #caa9d429;
+    border:1px solid black;
+    padding: 2px 6px 2px 6px;
+    height:30px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+button, input[type="submit"]{
+    height:30px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+}
+
+button:hover, input[type="submit"]:hover, input[type="file"]:hover{
+    @apply bg-primary-hover;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: #9482a052;
+}
+
+.btn-primary:hover{
+    background-color: #75568a52;
+    cursor:pointer;
+}
+
+@layer components {
+    .btn-category{
+        @apply p-2 w-[150px] float-left text-[#52524d] mr-2 text-center rounded-full;
+    }
+}
